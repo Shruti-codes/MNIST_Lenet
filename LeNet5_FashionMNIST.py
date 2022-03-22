@@ -60,7 +60,7 @@ history = model.fit(X_train, y_train, epochs = 2, validation_data = (X_test, y_t
 model.summary()
 
 # %%
-%matplotlib inline
+#%matplotlib inline
 import matplotlib.pyplot as plt
 
 acc = history.history['accuracy']
@@ -82,7 +82,7 @@ print(accuracy*100)
 model.save_weights("Fashion_LeNet5.hdf5", overwrite = True)
 
 # %%
-%matplotlib inline
+#%matplotlib inline
 import matplotlib.pyplot as plt
 import cv2
 
