@@ -1,0 +1,9 @@
+cython
+numpy
+pandas
+matplotlib
+folium
+lxml
+nltk
+tensorflow
+opencv-python-headless
